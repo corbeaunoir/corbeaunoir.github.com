@@ -54,6 +54,9 @@ body{
 #responsive-images{
     background-color: #5C832F;
     margin-bottom: 15px;
+    z-index: 100;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #port-title{
     text-align: center;
@@ -74,6 +77,9 @@ body{
 }
 #res-images {
     display: block;
+    margin: auto;
+    max-width: 460px;
+    width: 100%;
 }
 footer {
     background-color: #382513;
@@ -125,24 +131,20 @@ footer{
     box-shadow:         0px -2px 7px rgba(50, 50, 50, 0.75);
 }
 
-.shadow-both:before{
-    width: 100%;
-    height: 15px;
-    -webkit-box-shadow: 0px -2px 7px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px -2px 7px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px -2px 7px rgba(50, 50, 50, 0.75);
-    border: none;
-}
-.shadow-both:after{
-    width: 100%;
-    height: 15px;
-    -webkit-box-shadow: 0px 2px 7px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 2px 7px rgba(50, 50, 50, 0.75);
-    box-shadow: 0px 2px 7px rgba(50, 50, 50, 0.75);
+#responsive-images{
+    padding-top: 15px;
+    padding-bottom: 0;
 }
 
-input.area{
-    height: ;
+#fact-1 {
+    margin: 15px;
+    color: white;
+    font-family: Segoe UI Light;
+    font-size: 22px;
+}
+#fact-2 {
+    margin: 15px;  color: white;  font-family: Segoe UI Light;  
+    font-size: 22px;
 }
 
 /* for tablets only */
@@ -162,6 +164,13 @@ input.area{
     #subtitle{
         /*font-size: 15.125px;*/
     }
+
+    #fact-1{
+        font-size: 18px;
+    }
+    #fact-2{
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 524px) {
@@ -179,6 +188,15 @@ input.area{
     }
     #subtitle{
         font-size: 15.125px;
+    }
+    #sub-tagline{
+        font-size: 22px;
+    }
+    #fact-1{
+        font-size: 16px;
+    }
+    #fact-2{
+        font-size: 16px;
     }
 }
 
