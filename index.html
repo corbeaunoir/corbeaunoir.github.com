@@ -9,93 +9,115 @@
 
   
   <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
   
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
+	<div class="row shadow" id="header-row">
+		<div class="large-1 large-offset-2 columns small-2" id="logo-column">
+			<img src="img\logo.svg" alt="" id="logo">
+		</div>
+		<div class="large-6 columns small-8" id="title-column">
+			<h1 id="title">Corbeau Noir</h1>
+			<h4 id="subtitle">smooth responsive design for the new web</h4>
+		</div>
+		<div class="large-1 columns" id="header-placeholder"></div>
+	</div>
 
-	<div class="row">
-		<div class="large-12 columns">
-			<h2>Welcome to Foundation</h2>
-			<p>This is version 4.2.2.</p>
-			<hr />
+	<div class="row" id="tagline-row">
+		<div class="large-8 large-offset-1 columns">
+			<div id="tagline">I make clean and attractive websites that look sharp on any browser:</div>
+			<div id="sub-tagline">desktop, tablet, or smartphone</div>
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
-
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
-      </div>
-		</div>
-
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
+	<div id="responsive-images" class="row shadow-both">
+		<div class="large-6 large-offset-2 columns">
+			<img src="http://placehold.it/600x200" alt="" id="res-images">
 		</div>
 	</div>
 
+	<div class="row" id="portfolio-row">
+		<div class="large-10 columns" id="port-title">
+			<div class="" id="port-real">Portfolio</div>
+		</div>
+	</div>
+
+	<div class="row" id="testimonials">
+		<div class="large-2 large-offset-1 columns" id="test-1">
+			<img src="http://placehold.it/400x400" alt="">
+			<div class="blurb">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</div>
+		</div>
+		<div class="large-2 large-offset-1 columns" id="test-2">
+			<img src="http://placehold.it/400x400" alt="">
+			<div class="blurb">
+				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+			</div>
+		</div>
+		<div class="large-2 large-offset-1 columns" id="test-3">
+			<img src="http://placehold.it/400x400" alt="">
+			<div class="blurb">
+				Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae
+			</div>
+		</div>
+		<div class="large-1 columns" id="placeholder"></div>
+	</div>
+
+	<footer class="shadow-inverse">
+		<div class="row" id="footer-title">
+			<div class="large-10 columns">
+				Contact Me
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-10 large-6 columns">
+				<form action="" class="">
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<label for="name" class="right inline" id="">Name</label>
+						</div>
+						<div class="large-5 columns">
+							<input type="text" id="name" placeholder="">
+						</div>
+						<div class="large-2 columns"></div>
+					</div>
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<label for="email" class="right inline">Email</label>
+						</div>
+						<div class="large-5 columns">
+							<input type="text" id="email">
+						</div>
+						<div class="large-2 columns"></div>
+					</div>
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<label for="message" class="right inline">Message</label>
+						</div>
+						<div class="large-5 columns">
+							<textarea name="message" id="" cols="30" rows="10"></textarea>
+						</div>
+						<div class="large-2 columns"></div>
+					</div>
+					<div class="row">
+						<div class="large-5 large-offset-6 columns">
+							<a href="" class="button"> Submit </a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="large-4 small-10 columns">
+				
+			</div>
+		</div>
+	</footer>
+	
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
