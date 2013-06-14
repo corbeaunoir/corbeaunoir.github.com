@@ -2,6 +2,20 @@ body{
     background-color: #D8CAA8;
     background-image: url('background.png');
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+#contact-in{
+    display: block;
+    margin-right: 25px;
+    font-size: 28px;
+    font-family: Roboto Thin;
+    color: rgb(158, 219, 87);
+}
+#contact{
+    text-align: right;
+}
 #tagline{
     font-size: 20px;
     color: #5C832F;
@@ -9,14 +23,14 @@ body{
 #tagline-row{
     padding: 15px;
     margin-bottom: 15px;
-    font-family: Segoe UI;
+    font-family: Segoe UI, Roboto;
     text-align: center;
 }
 #sub-tagline{
     margin-top: 15px;
     
     font-size: 32px;
-    font-family: Segoe UI;
+    font-family: Roboto;
     color: #363942;
 }
 #header-row {
@@ -25,6 +39,7 @@ body{
     padding-top: 15px;
     padding-bottom: 12px;
     margin-bottom: 15px;
+    padding-right: 25px;
 }
 #title-column {
     padding-left: 15px;
@@ -41,7 +56,7 @@ body{
     margin-bottom: 0;
     font-weight: 400;
     font-size: 22px;
-    font-family: Segoe UI Light;
+    font-family: Roboto Thin;
 }
 #logo {
     width: 105px;
@@ -53,7 +68,6 @@ body{
 }
 #responsive-images{
     background-color: #5C832F;
-    margin-bottom: 15px;
     z-index: 100;
     padding-left: 15px;
     padding-right: 15px;
@@ -62,7 +76,7 @@ body{
     text-align: center;
     padding: 15px;
     font-size: 22px;
-    font-family: Segoe UI;
+    font-family: Roboto;
     color: #363942;
 }
 #blurb-1 {
@@ -80,6 +94,7 @@ body{
     margin: auto;
     max-width: 460px;
     width: 100%;
+    margin-bottom: 0;
 }
 footer {
     background-color: #382513;
@@ -92,12 +107,7 @@ img{
     display: block;
     margin: auto;
 }
-.blurb{
-    margin-top: 15px;
-    text-align: center;
-    margin-bottom: 15px;
-    color: #363942;
-}
+
 #testimonials{
     margin-bottom: 25px;
 }
@@ -114,7 +124,7 @@ footer{
 
 #footer-title{
     font-size: 22px;
-    font-family: Segoe UI;
+    font-family: Roboto;
     font-weight: 400;
     text-align: center;
     margin-bottom: 35px;
@@ -139,14 +149,72 @@ footer{
 #fact-1 {
     margin: 15px;
     color: white;
-    font-family: Segoe UI Light;
+    font-family: Roboto Thin;
     font-size: 22px;
+    line-height: 1.2em;
 }
 #fact-2 {
-    margin: 15px;  color: white;  font-family: Segoe UI Light;  
-    font-size: 22px;
+    margin: 15px;  color: white;  
+    font-family: Roboto Thin;  
+    font-size: 1.375em;
+    line-height: 1.2em;
+}
+#contact-button{
+    margin-left: 25px;
+    border: none;
+}
+.thumb-image{
+    border: solid 5px #5C832F;
+    background-color: white;
+}
+.test-block{
+    text-align: center;
+}
+.thumb-title{
+    text-align: center;
+    font-family: Bebas Neue, Segoe UI, Roboto;
+    margin-top: 15px;
+    font-size: 28px;
+    color: #363942;
+    margin-bottom: 0;
+}
+.blurb{
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #363942;
+    line-height: 1.2em;
+}
+#sub-sub-line{
+    font-family: Segoe UI, Roboto;
 }
 
+#port-real {
+    font-size: 28px;
+}
+#skillz, #relevant {
+    padding: 15px;
+    text-align: center;
+    line-height: 1.2em;
+}
+.skillz-line{
+    margin-bottom: 15px;
+    display: inline;
+    float: right;
+    width: 80%;
+}
+#cred-row{
+    background-color: #363942;
+    font-family: Segoe UI, Roboto Thin;
+    color: rgb(243, 243, 243);
+}
+#html5-logo{
+    float: left;
+    margin: auto;
+    display: inline;
+    padding-top: 15px;
+    width:20%;
+}
 /* for tablets only */
 @media only screen and (max-width: 768px) and (min-width: 525px){
     #logo{
