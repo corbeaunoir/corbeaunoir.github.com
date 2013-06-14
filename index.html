@@ -3,42 +3,35 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
-  <link rel='stylesheet' href='css/fonts.css' type='text/css'>
-  <meta charset="utf-8" />
+	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Corbeau Noir - Modern Web Design</title>
+  <title>Foundation 4</title>
 
   
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/main.css" />
 
-  <link rel="shortcut icon" href="favicon.ico">
+  
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
-	<!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
 	<div class="row shadow" id="header-row">
 		<div class="large-1 large-offset-2 columns small-2" id="logo-column">
 			<img src="img\logo.svg" alt="" id="logo">
 		</div>
-		<div class="large-5 columns small-8" id="title-column">
+		<div class="large-6 columns small-8" id="title-column">
 			<h1 id="title">Corbeau Noir</h1>
 			<h4 id="subtitle">smooth responsive design for the new web</h4>
 		</div>
-		<div class="large-1 columns" id="contact">
-			<a href="mailto:rachitsingh@outlook.com"><div id="contact-in">contact</div></a>
-		</div>
+		<div class="large-1 columns" id="header-placeholder"></div>
 	</div>
 
 	<div class="row" id="tagline-row">
 		<div class="large-8 large-offset-1 columns">
 			<div id="tagline">I make clean and attractive websites that look sharp on any browser:</div>
 			<div id="sub-tagline">desktop, tablet, or smartphone</div>
-			<div id="sub-sub-line">resize this one!</div>
 		</div>
 	</div>
 
@@ -53,18 +46,6 @@
 			<div id="fact-2">
 				I can reoptimize existing sites to take advantage of new technology like CSS3 and HTML5 to make your site beautiful and functional
 			</div>
-			<a href="mailto:rachitsingh@outlook.com" class="button" id="contact-button"> Contact </a>
-		</div>
-	</div>
-
-	<div class="row shadow" id="cred-row">
-		<div class="large-5 small-5 columns" id="skillz" class="text-skillz">
-			<div class="skillz-line"> 
-				I've been programming since I was 12, and since then I've learned quite a few languages: Python, HTML(5), CSS(3), Javascript, and others.
-			</div>
-		</div>
-		<div class="large-5 small-5 columns" id="relevant" class="text-skillz"> 
-			While my specialty is static sites with simple customizability, I've worked with large projects using Wordpress and custom CMSs like Google App Engine and NodeJS
 		</div>
 	</div>
 
@@ -75,33 +56,76 @@
 	</div>
 
 	<div class="row" id="testimonials">
-		<div class="large-2 large-offset-1 columns" id="test-1" class="test-block">
-			<a href="http://www.pcei.org">
-				<img src="img/pcei.jpg" alt="" class="thumb-image">
-				<div class="thumb-title">PCEI </br></div>
-				<div class="blurb">
-					As a volunteer at the Palouse Clearwater Environmental Institute, I helped redesign and reimplement their new website in Wordpress and update it for the modern web.
-				</div>
-			</a>
+		<div class="large-2 large-offset-1 columns" id="test-1">
+			<img src="http://placehold.it/400x400" alt="">
+			<div class="blurb">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</div>
 		</div>
-		<div class="large-2 large-offset-1 columns" id="test-2" class="test-block">
-				<img src="img/high-qual-light.svg" alt="" class="thumb-image">
-				<div class="thumb-title">Banyans </br></div>
-				<div class="blurb">
-					I'm currently helping Banyans on the Ridge create a new website using a customized and flexible CMS called CouchCMS. Their site is fully responsive, and almost ready to go!
-				</div>
+		<div class="large-2 large-offset-1 columns" id="test-2">
+			<img src="http://placehold.it/400x400" alt="">
+			<div class="blurb">
+				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+			</div>
 		</div>
-		<div class="large-2 large-offset-1 columns" id="test-3" class="test-block">
-			<a href="http://www.rachitsingh.com">
-				<img src="img/rachit.jpg" alt="" class="thumb-image">
-				<div class="thumb-title">rachitsingh.com</div>
-				<div class="blurb">
-					My own personal website. A short summary of the things I do and am 	involved in.
-				</div>
-			</a>
+		<div class="large-2 large-offset-1 columns" id="test-3">
+			<img src="http://placehold.it/400x400" alt="">
+			<div class="blurb">
+				Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae
+			</div>
 		</div>
 		<div class="large-1 columns" id="placeholder"></div>
 	</div>
+
+	<footer class="shadow-inverse">
+		<div class="row" id="footer-title">
+			<div class="large-10 columns">
+				Contact Me
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-10 large-6 columns">
+				<form action="" class="">
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<label for="name" class="right inline" id="">Name</label>
+						</div>
+						<div class="large-5 columns">
+							<input type="text" id="name" placeholder="">
+						</div>
+						<div class="large-2 columns"></div>
+					</div>
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<label for="email" class="right inline">Email</label>
+						</div>
+						<div class="large-5 columns">
+							<input type="text" id="email">
+						</div>
+						<div class="large-2 columns"></div>
+					</div>
+					<div class="row">
+						<div class="large-2 columns large-offset-1">
+							<label for="message" class="right inline">Message</label>
+						</div>
+						<div class="large-5 columns">
+							<textarea name="message" id="" cols="30" rows="10"></textarea>
+						</div>
+						<div class="large-2 columns"></div>
+					</div>
+					<div class="row">
+						<div class="large-5 large-offset-6 columns">
+							<a href="" class="button"> Submit </a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="large-4 small-10 columns">
+				
+			</div>
+		</div>
+	</footer>
+	
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
