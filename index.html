@@ -1,136 +1,227 @@
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<!DOCTYPE HTML>
+<!--
+	Rachit Singh, based heavily on work by:
+	
+	Helios 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Corbeau Noir</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<style>
+			.byline {
+				margin-left: 50px;
+				margin-right: 50px;
+			}
+			.contacttext{
+				display: block;
+				padding-left: 5px;
+				margin-bottom: 15px;
+			}
+			.contactbutton{
+				border-radius: 0;
+				width: 100%;
+			}
+			.contextarea{
+				background-color: white;
+				font-family: Arial;
+			}
+			p > strong{
+				font-weight: bold;
+			}
+			.copyright {
+				margin-top: 15px;
+			}
+		</style>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
 
-<head>
-  <link rel='stylesheet' href='css/fonts.css' type='text/css'>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Corbeau Noir - Modern Web Design</title>
-
-  
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/main.css" />
-
-  <link rel="shortcut icon" href="favicon.ico">
-
-  <script src="js/vendor/custom.modernizr.js"></script>
-
-</head>
-<body>
-	<!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-	<div class="row shadow" id="header-row">
-		<div class="large-1 large-offset-2 columns small-2" id="logo-column">
-			<img src="img\logo.svg" alt="" id="logo">
-		</div>
-		<div class="large-5 columns small-8" id="title-column">
-			<h1 id="title">Corbeau Noir</h1>
-			<h4 id="subtitle">smooth responsive design for the new web</h4>
-		</div>
-		<div class="large-1 columns" id="contact">
-			<a href="mailto:rachitsingh@outlook.com"><div id="contact-in">contact</div></a>
-		</div>
-	</div>
-
-	<div class="row" id="tagline-row">
-		<div class="large-8 large-offset-1 columns">
-			<div id="tagline">I make clean and attractive websites that look sharp on any browser:</div>
-			<div id="sub-tagline">desktop, tablet, or smartphone</div>
-			<div id="sub-sub-line">resize this one!</div>
-		</div>
-	</div>
-
-	<div id="responsive-images" class="row shadow-inverse">
-		<div class="large-2 columns small-10" id="feature-1">
-			<div id="fact-1">More than 40% of all traffic on the internet is from mobile devices: are you ready to meet it?</div>
-		</div>
-		<div class="large-5 columns">
-			<img src="img\responsive.svg" alt="" id="res-images">
-		</div>
-		<div class="large-3 columns" id="feature-2">
-			<div id="fact-2">
-				I can reoptimize existing sites to take advantage of new technology like CSS3 and HTML5 to make your site beautiful and functional
-			</div>
-			<a href="mailto:rachitsingh@outlook.com" class="button" id="contact-button"> Contact </a>
-		</div>
-	</div>
-
-	<div class="row shadow" id="cred-row">
-		<div class="large-5 small-5 columns" id="skillz" class="text-skillz">
-			<div class="skillz-line"> 
-				I've been programming since I was 12, and since then I've learned quite a few languages: Python, HTML(5), CSS(3), Javascript, and others.
-			</div>
-		</div>
-		<div class="large-5 small-5 columns" id="relevant" class="text-skillz"> 
-			While my specialty is static sites with simple customizability, I've worked with large projects using Wordpress and custom CMSs like Google App Engine and NodeJS
-		</div>
-	</div>
-
-	<div class="row" id="portfolio-row">
-		<div class="large-10 columns" id="port-title">
-			<div class="" id="port-real">Portfolio</div>
-		</div>
-	</div>
-
-	<div class="row" id="testimonials">
-		<div class="large-2 large-offset-1 columns" id="test-1" class="test-block">
-			<a href="http://www.pcei.org">
-				<img src="img/pcei.jpg" alt="" class="thumb-image">
-				<div class="thumb-title">PCEI </br></div>
-				<div class="blurb">
-					As a volunteer at the Palouse Clearwater Environmental Institute, I helped redesign and reimplement their new website in Wordpress and update it for the modern web.
-				</div>
-			</a>
-		</div>
-		<div class="large-2 large-offset-1 columns" id="test-2" class="test-block">
-			<a href="http://www.rachitsingh.com">
-				<img src="img/rachit.jpg" alt="" class="thumb-image">
-				<div class="thumb-title">rachitsingh.com</div>
-				<div class="blurb">
-					My own personal website. A short summary of the things I do and am 	involved in.
-				</div>
-			</a>
+		<!-- Header -->
+			<div id="header">
+						
+				<!-- Inner -->
+					<div class="inner">
+						<header>
+							<h1><a href="#" id="logo">Corbeau Noir</a></h1>
+							<hr />
+							<span class="byline">Responsive Design for the Modern Web</span>
+						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">Start</a>
+						</footer>
+					</div>
 				
-		</div>
-		<div class="large-2 large-offset-1 columns" id="test-3" class="test-block">
-			<img src="img/high-qual-light.svg" alt="" class="thumb-image">
-				<div class="thumb-title">Banyans </br></div>
-				<div class="blurb">
-					I'm currently helping Banyans on the Ridge create a new website using a customized and flexible CMS called CouchCMS. Their site is fully responsive, and almost ready to go!
+				<!-- Nav -->
+					<!--<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<span>Dropdown</span>
+								<ul>
+									<li><a href="#">Lorem ipsum dolor</a></li>
+									<li><a href="#">Magna phasellus</a></li>
+									<li><a href="#">Etiam dolore nisl</a></li>
+									<li>
+										<span>And a submenu &hellip;</span>
+										<ul>
+											<li><a href="#">Lorem ipsum dolor</a></li>
+											<li><a href="#">Phasellus consequat</a></li>
+											<li><a href="#">Magna phasellus</a></li>
+											<li><a href="#">Etiam dolore nisl</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Veroeros feugiat</a></li>
+								</ul>
+							</li>
+							<li><a href="left-sidebar.html">Left Sidebar</a></li>
+							<li><a href="right-sidebar.html">Right Sidebar</a></li>
+							<li><a href="no-sidebar.html">No Sidebar</a></li>
+						</ul>
+					</nav>-->
+
+			</div>
+			
+		<!-- Banner -->
+			<div id="banner">
+				<h2>Welcome to  <strong>Corbeau Noir</strong>.</h2>
+				<span class="byline">
+					A web design company based in <a href="https://www.google.com/maps/preview#!q=city+of+pullman&data=!4m12!2m11!1m10!1s0x549f8114b2e14d95%3A0x86a49b16240400f0!3m8!1m3!1d43756!2d-117.1522585!3d46.730479!3m2!1i1024!2i768!4f13.1">Pullman, Washington</a>. We make modern websites using responsive technology like CSS3, @media queries, and grid systems. We'll jumpstart your business with a <strong>powerful web presence</strong>.
+				</span>
+			</div>
+
+		<!-- Carousel -->
+			<div class="carousel">
+				<div class="reel">
+
+					<article>
+						<a href="http://www.banyanspullman.com" class="image featured"><img src="images/banyans.png" alt="" /></a>
+						<header>
+							<h3><a href="http://www.banyanspullman.com">Banyans on the Ridge</a></h3>
+						</header>
+						<p>Banyans on the Ridge is an upscale restaurant in the city of Pullman. We created their website using CouchCMS, a light PHP framework.</p>							
+					</article>
+
+					<article>
+						<a href="http://www.pcei.org" class="image featured"><img src="images/pcei.png" alt="" /></a>
+						<header>
+							<h3><a href="http://www.pcei.org">PCEI</a></h3>
+						</header>
+						<p>Palouse-Clearwater Environmental Institute is a group dedicated to informing and educating the public about our sustainable future</p>							
+					</article>
+				
+					<article>
+						<a href="http://scsbi.rachitsingh.com" class="image featured"><img src="images/scsbi.png" alt="" /></a>
+						<header>
+							<h3><a href="http://scsbi.rachitsingh.com">SCSBI</a></h3>
+						</header>
+						<p>SCSBI is a K-5 school in India. We're currently working with SCSBI to create a new sleek website for teachers and students.</p>							
+					</article>
+
 				</div>
-		</div>
-		<div class="large-1 columns" id="placeholder"></div>
-	</div>
-	<div class="row" id="testimonials-2">
-		<div class="large-2 large-offset-1 columns test-block" id="test-4">
-			<a href="http://www.rachitsingh.com/websites/restaurant/">
-				<img src="img/restaurant.PNG" alt="" class="thumb-image">
-				<div class="thumb-title">Restaurant</div>
-				<div class="blurb">
-					A small mockup I made to demonstrate responsive design. The whole page rewraps and reflows as you change your browser size/window.
+			</div>
+			
+		<!-- Main -->
+			<div class="wrapper style2">
+
+				<article id="main" class="container special">
+					<a href="http://mdomaradzki.deviantart.com/art/Planet-Bronte-339258500" class="image featured"><img src="images/demo.png" alt="" style="padding-top: 35px;"/></a>
+					<header>
+						<h2><a href="#">#include&lt;designmojo&gt;</a></h2>
+						<span class="byline">
+							HTML5. CSS3. <strong>Responsive Design</strong>. All batteries included. Our websites work on all screen sizes, from iPhones to full screen displays. Smoothly resized and sharply rendered.
+						</span>
+					</header>
+					<footer>
+						<a href="mailto:rachitsingh@outlook.com" class="button">Contact Us</a>
+					</footer>
+				</article>
+
+			</div>
+
+		<!-- Features -->
+			<div class="wrapper style1">
+				
+				<section id="features" class="container special">
+					<header>
+						<h2>Supercharge your website with the latest web technology</h2>
+						<span class="byline">We use cutting edge technology to create fresh and powerful sites with smooth scaling on any screen size.</span>
+					</header>
+					<div class="row">
+						<article class="4u special">
+							<a href="http://www.html5rocks.com" class="image featured"><img src="images/html5.png" alt="" /></a>
+							<p>
+								Don't be afraid to push the frontiers - use new features in JavaScript and the HTML5 spec in your website, like localStorage and mobile APIs. We'll do it while still using <strong>clean, semantic markup </strong>.
+							</p>
+						</article>
+						<article class="4u special">
+							<a href="www.wordpress.org" class="image featured"><img src="images/wordpress.png" alt="" /></a>
+							<p>
+								With thousands of WordPress templates and plugins available, it's easy to get lost. We can guide your business in <strong>choosing</strong> and <strong>customizing</strong> an existing WordPress template to precisely <strong>match the feel of your business</strong>. 
+							</p>
+						</article>
+						<article class="4u special">
+							<a href="#features" class="image featured"><img src="images/css3.png" alt="" /></a>
+							<p>
+								We use the latest in CSS3 - including transitions and animation key frames - to make a modern website with <strong>fluid visuals</strong>.
+							</p>
+						</article>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="6u">
+							
+							<!-- Contact -->
+								<section class="contact">
+									<header>
+										<h3>Contact Us</h3>
+									</header>
+									<form action="#">
+										<input type="text" class="contacttext" name="name" placeholder="name">
+										<input type="text" class="contacttext" name="email" placeholder="email">
+										<textarea rows="4" cols="40" class="contacttext contextarea" size="45" placeholder="message"></textarea>
+										<a href="mailto:rachitsingh@outlook.com" class="button contactbutton">Submit</a>
+									</form>
+								</section>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<!-- Copyright -->
+								<div class="copyright">
+									<ul class="menu">
+										<li>&copy; Rachit Singh, Corbeau Noir. All rights reserved.</li>
+										<li>Design: Corbeau Noir, based on work by <a href="http://html5up.net/">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div>
+					</div>	
 				</div>
-			</a>
-		</div>
-	</div>
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="js/foundation.min.js"></script>
-  <!--
-  
-  <script src="js/foundation/foundation.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  -->
-  
-  <script>
-    $(document).foundation();
-  </script>
-</body>
+			</div>
+
+	</body>
 </html>
