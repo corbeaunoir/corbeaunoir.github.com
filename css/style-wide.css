@@ -7,6 +7,13 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+#header .inner{
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 50px;
+	background-color: rgba(0, 5, 12, 0.67);
+}
+
 
 	body,input,textarea,select
 	{
