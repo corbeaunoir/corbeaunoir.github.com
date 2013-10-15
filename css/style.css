@@ -19,6 +19,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Norwester';
+    src: url('font/norwester.eot');
+    src: url('font/norwester.eot?#iefix') format('embedded-opentype'),
+         url('font/norwester.woff') format('woff'),
+         url('font/norwester.ttf') format('truetype'),
+         url('font/norwester.svg#norwesterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
 	Helios 1.0 by HTML5 UP
 	html5up.net | @n33co
@@ -1101,7 +1112,7 @@
 			{
 				color: inherit;
 			
-				font-family: Bebas Neue;
+				font-family: Norwester;
 }
 	
 		#header .byline
